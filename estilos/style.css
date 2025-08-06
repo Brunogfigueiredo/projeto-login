@@ -41,7 +41,9 @@ section#login {
 
     overflow: hidden;
 
-}
+    transition: width: .6s, height .3s;
+    transition-timing-function: ease;
+} 
 
 section#login > div#imagem { 
     display: block;
@@ -51,7 +53,7 @@ section#login > div#imagem {
     background-position: center center;
 }
 
-section#login > div#formularios {
+section#login > div#formulario {
     display: block;
     padding: 10px;
 }
